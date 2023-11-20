@@ -43,5 +43,9 @@ export class Lambda_Stack extends cdk.Stack {
       },
     });
 
+    new cdk.CfnOutput(this, 'ModulatorFnExport', {
+      value: this.ModulatorFn.functionArn,
+      exportName: 'ModulatorFnExport',
+    });
   }
 }
