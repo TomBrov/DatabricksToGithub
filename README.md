@@ -1,7 +1,5 @@
 
 # Databricks to GitHub Integration
-
-## Introduction
 This project integrates Databricks with GitHub Actions, aiming to streamline machine learning workflows. The integration simplifies the version control process and enhances collaboration among data science teams by leveraging Databricks' robustness and GitHub Actions' automation capabilities
 
 ## GitHub Integration Rationale
