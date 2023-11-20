@@ -66,3 +66,6 @@ said PAT token is to bs used under autharization tab.
 * `npm run deploy`  deploy this stack to your default AWS account/region
 * `npm run destroy` destroy this stack from your default AWS account/region
 * `npm run test`    perform the jest unit tests
+
+## Disclaimer
+If you are inside an organizational network with white labeling IP addresses then add the VPC to your lambda.
