@@ -1,0 +1,15 @@
+[tool.poetry]
+authors = ["Tom Brovender <tom.brovender@develeap.com>"]
+description = "lambda function"
+name = "lambda"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+boto3 = "^1.26.162"
+python = "^3.10"
+pyyaml = "^6.0.1"
+requests = "^2.31.0"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]

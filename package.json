@@ -1,0 +1,33 @@
+{
+  "name": "databricks_to_github",
+  "version": "0.1.0",
+  "bin": {
+    "app": "app/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "init": "cdk bootstrap",
+    "synth": "cdk synth --require-approval never --all",
+    "deploy": "cdk deploy --require-approval never --all",
+    "destroy": "cdk destroy --require-approval never --all",
+    "context": "cdk context -j",
+    "diff": "cdk diff"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "@types/node": "20.4.5",
+    "jest": "^29.6.2",
+    "ts-jest": "^29.1.1",
+    "aws-cdk": "2.89.0",
+    "ts-node": "^10.9.1",
+    "typescript": "~5.1.6"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.89.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}
