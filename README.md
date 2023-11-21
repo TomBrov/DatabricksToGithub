@@ -61,6 +61,14 @@ user settings -> developers settings -> generate token (classic)
 
 said PAT token is to bs used under autharization tab.
 
+## How To Deploy?
+Follow these steps in order to deploy the stack onto your account with all the needed configurations.
+
+* `npm install`     Installs all the needed packages for the integration.
+*  Edit your `cdk.context.json` so that you would have all your needed configurations. (See CDK Application Overview to track what you need to change)
+* `npm run deploy`  Deploy this stack to your default AWS account/region
+
+
 ## Useful commands
 
 * `npm run deploy`  deploy this stack to your default AWS account/region
