@@ -8,5 +8,7 @@ import { Api_Stack } from './stacks/api_stack';
 const app = new cdk.App();
 const lambda_stack= new Lambda_Stack(app, 'DatabricksToGithubStack', {});
 
-const api = new Api_Stack(app, "apiStack", {})
+const api = new Api_Stack(app, "apiStack", {
+    Modulatorfn: lambda_stack.ModulatorFn,
+})
 

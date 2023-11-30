@@ -2,9 +2,14 @@ import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import * as lambda from "aws-cdk-lib/aws-lambda";
 import * as pylambda from "@aws-cdk/aws-lambda-python-alpha";
-import { Context } from "../lib/Context";
 import * as secrets from "aws-cdk-lib/aws-secretsmanager";
 
+interface Context {
+  owner: string;
+  repository: string;
+  workflow_id: string;
+  default_branch: string;
+}
 
 export class Lambda_Stack extends cdk.Stack {
   public readonly ModulatorFn: lambda.IFunction;
