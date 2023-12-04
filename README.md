@@ -1,4 +1,10 @@
-
+![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)
+![maintanance](https://img.shields.io/badge/Maintained%3F-no-red.svg)
 # Databricks to GitHub Integration
 This project integrates Databricks with GitHub Actions, aiming to streamline machine learning workflows. The integration simplifies the version control process and enhances collaboration among data science teams by leveraging Databricks' robustness and GitHub Actions' automation capabilities
 
